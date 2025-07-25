@@ -1,4 +1,4 @@
-<wiidisc version="1" shiftfiles="true" root="/NSMBWer+" log="true">
+<wiidisc version="1" shiftfiles="true" root="/SMDWii" log="true">
 	<id game="SMN">
 		<region type="P"/>
 		<region type="E"/>
@@ -7,15 +7,16 @@
 		<region type="W"/>
 	</id>
 	<options>
-		<section name="NSMBWer+">
-			<option name="Game" id="NSMBWer+" default="1">
-				<choice name="Enabled"><patch id="NSMBWer+"/></choice>
+		<section name="Super Mario Dimensions">
+			<option name="Game" id="SMDWii" default="1">
+				<choice name="Enabled"><patch id="SMDWii"/></choice>
 			</option>
 		</section>
 	</options>
-	<patch id="NSMBWer+">
+	<patch id="SMDWii">
 		<!-- Delete the next line out when making your mod, or if you're having crashes on startup -->
-		<savegame external="/NSMBWer+/Save/{$__gameid}{$__region}" clone="true" />
+		<savegame external="/SMDWii
+	/Save/{$__gameid}{$__region}" clone="true" />
 		
 		<!-- Vanilla folders, bar languages -->
 		<folder external="Effect" disc="/Effect" />
