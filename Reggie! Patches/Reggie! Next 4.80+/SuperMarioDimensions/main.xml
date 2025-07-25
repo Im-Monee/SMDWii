@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<game name="NSMBWer+" version="1.2.1" description="Super Mario Dimensions[br]The heck is going on?!.">
+<game name="Super Mario Dimensions" version="1.2.1" description="A 8+ Worlds Mod[br]The heck is going on?!.">
     <folder name="sprites" path="sprites"/>
     <folder name="external" path="external" />
     <file name="spritedata" path="spritedata.xml"/>
