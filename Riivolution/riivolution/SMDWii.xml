@@ -15,8 +15,7 @@
 	</options>
 	<patch id="SMDWii">
 		<!-- Delete the next line out when making your mod, or if you're having crashes on startup -->
-		<savegame external="/SMDWii
-	/Save/{$__gameid}{$__region}" clone="true" />
+		<savegame external="/SMDWii/Save/{$__gameid}{$__region}" clone="true" />
 		
 		<!-- Vanilla folders, bar languages -->
 		<folder external="Effect" disc="/Effect" />
