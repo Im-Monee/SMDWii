@@ -84,6 +84,13 @@
 		<!-- US -->    <memory offset="0x800E4D78" value="38600021" original="3860003F" />
 		<!-- JP -->    <memory offset="0x800E4CF8" value="38600021" original="3860003F" />
 		<!-- KR/TW --> <memory offset="0x800E4E88" value="38600021" original="3860003F" />
+		
+		<!-- Remove 1-1 BG Hardcoding -->
+		<!--PAL--><memory offset="0x801180A0" value="48000018" original="4BF69B41" />
+		<!--NTSC--><memory offset="0x80117F60" value="48000018" original="4BF69C81" />
+		<!--JPN--><memory offset="0x80117D70" value="48000018" original="4BF69E71" />
+		<!--KR/TW--><memory offset="0x80118470" value="48000018" original="4BF698B1" />
+		<!--CHN--><memory offset="0x801192C0" value="48000018" original="4BF68A61" />
 
 		<!-- Common -->
 		<memory offset="0x800046F0" valuefile="Loader.bin" />

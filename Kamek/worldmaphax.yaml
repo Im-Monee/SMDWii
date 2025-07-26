@@ -22,8 +22,8 @@ hooks:
   - {name: WACannonDest, type: patch, addr_pal: 0x802f4d14, data: '0000000A'}
 
 # Quick Save
-  # - {name: DisableQuickSave, type: nop_insn, area_pal: 0x8077AA7C}
-  # - {name: DisableQuickSave2, type: nop_insn, area_pal: 0x8092FD08}
+  - {name: DisableQuickSave, type: nop_insn, area_pal: 0x8077AA7C}
+  - {name: DisableQuickSave2, type: nop_insn, area_pal: 0x8092FD08}
 
 # Level hardcode removals
   # - {name: disableLevelToadCondSetting, type: nop_insn, area_pal: 0x80928008} not needed
@@ -43,15 +43,15 @@ hooks:
   # - {name: removeW8Bubble, type: patch, addr_pal: 0x808ca570, data: '4E800020'}
 
 # Effect Removals
-  # - {name: removeW3Snow, type: nop_insn, area_pal: [0x80321978, 0x80321988]}
-  # - {name: removeW5PoisonBubble, type: nop_insn, area_pal: 0x803219cc}
-  # - {name: removeW8LavaEffects, type: nop_insn, area_pal: [0x80321998, 0x803219a8]}
-  # - {name: removeBowserCastleFire, type: nop_insn, area_pal: 0x80321aa4}
-  # - {name: removeW9Comets, type: nop_insn, area_pal: 0x803219e0}
+  - {name: removeW3Snow, type: nop_insn, area_pal: [0x80321978, 0x80321988]}
+  - {name: removeW5PoisonBubble, type: nop_insn, area_pal: 0x803219cc}
+  - {name: removeW8LavaEffects, type: nop_insn, area_pal: [0x80321998, 0x803219a8]}
+  - {name: removeBowserCastleFire, type: nop_insn, area_pal: 0x80321aa4}
+  - {name: removeW9Comets, type: nop_insn, area_pal: 0x803219e0}
 
 # Koopaling/Airship Removal
-  # - {name: removeAirship, type: patch, addr_pal: 0x808dbee0, data: '4E800020'}
-  # - {name: removeKoopalings, type: patch, addr_pal: 0x808f7100, data: '4E800020'} #needs to be used with previous patches, or else you get an invalid read
+  - {name: removeAirship, type: patch, addr_pal: 0x808dbee0, data: '4E800020'}
+  - {name: removeKoopalings, type: patch, addr_pal: 0x808f7100, data: '4E800020'} #needs to be used with previous patches, or else you get an invalid read
 
 # Misc Removals
   # - {name: removeItemMenu, type: nop_insn, area_pal: 0x80904298}
